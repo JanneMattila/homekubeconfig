@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   labels:
     name: janne-app-b
-    type: webapp
+    type: db
   name: janne-app-b
