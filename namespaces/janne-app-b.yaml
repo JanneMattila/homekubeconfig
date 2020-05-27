@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  labels:
+    name: janne-app-b
+    type: webapp
+  name: janne-app-b
