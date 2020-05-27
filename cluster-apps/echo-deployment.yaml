@@ -13,6 +13,8 @@ spec:
       labels:
         app: echo
     spec:
+      nodeSelector:
+        "beta.kubernetes.io/os": linux
       containers:
         - image: jannemattila/echo:1.0.14
           name: echo
