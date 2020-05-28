@@ -16,7 +16,7 @@ spec:
       nodeSelector:
         "beta.kubernetes.io/os": linux
       containers:
-        - image: jannemattila/echo:1.0.2
+        - image: jannemattila/echo:1.0.14
           name: echo
           ports:
             - containerPort: 80
